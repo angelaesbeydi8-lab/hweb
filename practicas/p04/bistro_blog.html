@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!-- article: sirve para agrupar contenido independiente,
+    como una publicación de un blog.
+
+    section: sirve para organizar el contenido en secciones
+    relacionadas dentro de una página.
+
+    div: sirve para agrupar elementos HTML sin añadirles
+    un significado específico.
+
+    span: sirve para identificar o agrupar una parte pequeña
+    del texto dentro de otro elemento.
+-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master-Chef Geek: Blog</title>
+</head>
+<body>
+    <header>
+        <h1>Master-Chef Geek</h1>
+        <nav>
+            <u1>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Menú</a></li> 
+              <lit><a href="#">Blog</a></lit>
+              <lit><a href="#">Contactos</a></lit>
+            </u1>
+        </nav>
+
+
+    </header>
+
+    <article>
+    <header>
+
+        <h2>Menu de Otoño</h2>
+        <p>Publicado por NEOJC,
+            <time datetime="2019-08-11" pubdate><!--Datetime ve la fecha del formato como año-mes-dia--><!--Pubdate muestra la fecha que corresponde la Publicacion-->
+                11 de agosto de 2019
+            </time>
+        </p>
+    </header>
+
+    <p>
+       Nuestro chef ha estado ocupado armando el menu completo para los
+       meses de invierno.Preparence para probar estos aperitivos y
+       platillo principiles para estos largos meses.  
+    </p>
+
+    <section id="aperitivos">
+        <h3>Aperitivos</h3>
+        <dl>
+            <dt>Zurron de frijol negro</dt>
+            <dd>
+            Frijoles negros, picante y una mezcla de quesos mexicanos
+            envueltos en láminas de masa de maíz prieto, horneados
+            hasta que estén dorados.
+            <span class="precio">$79.00</span>  
+            </dd>
+
+            <dt class="nuevoarticulo">Napoleones del suroeste con cangrejo - <strong>¡nueva entrada!</strong></dt>
+            <dd>
+                capas de trozos ligeros de carne de cangrejo, frijol y
+                salsa de maiz, y nuestras tortillas de harina hechas a mano.
+                <span class="precio">$159.00</span>
+            </dd>
+        </dl>
+    </section>
+
+
+    <section id="platillosprincipales">
+        <h3>Platillos Principales</h3>
+        <dl>
+            <dt>Brochetas de camarones adobados con salsa de cacahuetes</dt>
+            <dd>
+            Brochetas de camarón marinados con zumo de limón, ajo, y salsa de
+            pescado, asados a la parrilla. Servidos con salsa picante de cacahuate
+            y arroz jazmín. 
+            <span class="precio">$249.00</span>
+
+            </dd>
+
+            <dt class="nuevoarticulo">Pollo asado a las brasas con plátanos fritos - <strong>¡nuevo platillo!</strong></dt>
+            <dd>
+            Pollo de rancho asado a fuego lento, condimentado con
+            salsa picante y salsa Jerk, y servido con tostones de
+            plátanos fritos y mango fresco.  
+            <span class="precio">$259.00</span>
+
+            </dd>
+        </dl>
+    </section>
+
+    </article>
+
+
+
+    <article>
+      <header>
+        <h2>Bajito y Despacito</h2>
+        <p>Publicado por MasterChef,
+            <time datetime="2018-11-15" pubdate>
+                November 15, 2018
+            </time>
+        </p>
+    </header>
+
+    <p>
+        Esta semana estamos extremadamente emocionados por presentar una
+        nueva técnica de cocina llamada sous vide. Con la técnica sous
+        vide, tú sumerges un recipiente (generalmente de plástico sellado
+        al vacío) en un baño de agua que precisamente se adapta a la
+        temperatura requerida para que la comida sea cocinada. En este
+        programa, Cocina para Geeks, Jaime Potter describe la técnica como
+        poción mágica a temperatura ultra baja.
+    </p>
+
+    <p>
+        La siguiente semana, prepararemos Salmon Sous Vide con Eneldo
+        Holandés. Para asistir al programa, contáctanos antes del 30 de
+        Noviembre.
+    </p>  
+    </article>
+
+
+    <footer>
+    <div id="acerca">
+        <p>
+            Ubicación:<br>
+            La esquina del sabor, Puebla, México.
+        </p>
+
+        <p>
+            Horario:<br>
+            <time>Jueves a Sábado, desde 11:00 am hasta media noche.</time>
+        </p>
+    </div>
+
+    <p><samll>2019 copyright © Grupo Marter-Chef, Derechos reservados.</samll></p>
+</footer>
+
+    
+</body>
+</html>
