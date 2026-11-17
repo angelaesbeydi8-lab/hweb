@@ -1,0 +1,13 @@
+
+body {
+    margin: 2em 6em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1, h2 {
+    color: #3CD;
+}
+
+h1 {
+    font-size: 1.5em;
+}
